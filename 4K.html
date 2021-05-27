@@ -1,0 +1,102 @@
+<html>
+
+<head>
+<!--<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">  -->
+
+<title>Large HTML page with images</title>
+
+<!-- The following link block and style block present methods how to load external CSS documents.
+     The link tag forces an immediate download of the CSS document whereas the import clause in
+     the style block has the document downloaded some random time later.  -->
+
+<link href="htmlparser/sections.css" rel="stylesheet" type="text/css">
+
+
+<!--
+<style type="text/css">
+@import url(htmlparser/sections.css);
+</style> 
+-->
+
+</head>
+
+<body>
+<div align="center"><center>
+<h1 class="fore">When to load CSS</h1>
+
+<table border="0" cellspacing="5" width="100%" bgcolor="#F2F2FF">
+  <tr>
+    <td><p align="left"><font color="#000080" size="5" face="Tahoma"><strong>Large HTML page
+    with Images</strong></font></td>
+  </tr>
+</table>
+</center></div>
+
+<hr>
+
+<p><strong><small><font face="Verdana">This page shall test if the recorder generates
+scripts with requests in correct order. It includes images in sequential order: stadyn_image1.gif
+through stadyn_image10.gif</font></small></strong></p>
+
+<hr>
+
+<p><img src="stadyn_image1.gif" width="70" height="70" alt="stadyn_image1.gif (6512 bytes)"><br>
+stadyn_image1</p>
+
+<p><img src="stadyn_image2.gif" width="70" height="70" alt="stadyn_image2.gif (5983 bytes)"><br>
+stadyn_image2</p>
+
+<p align="center"><b><font SIZE="6">Open Financial Exchange<br>
+Specification 1.0</font></b> </p>
+
+<p align="center"><b><font SIZE="2">February 14, 1997<br>
+</font></b></p>
+
+<p align="center"><b><font SIZE="2">© 1997 CheckFree Corp., Intuit Inc., Microsoft Corp.
+All rights reserved<br>
+<br>
+<br>
+</font></b></p>
+
+<p align="center"><i><b><font SIZE="5">Chapters 1 - 10<br>
+<br>
+<br>
+<br>
+<br>
+</font></b></i></p>
+
+<h1><img src="stadyn_image3.gif" width="70" height="70" alt="stadyn_image3.gif (6537 bytes)"><br>
+<font SIZE="5">stadyn_image3</font></h1>
+
+<h1><img src="stadyn_image4.gif" width="70" height="70" alt="stadyn_image4.gif (6028 bytes)"><br>
+stadyn_image4</h1>
+
+<p><img src="stadyn_image5.gif" width="70" height="70" alt="stadyn_image5.gif (4068 bytes)"><br>
+stadyn_image5</p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<h1><a NAME="_Toc371408167"><font SIZE="5">Contents</font></a></h1>
+
+<p>1. Overview 51.1 Introduction 51.1.1 Design Principles 51.2 Open Financial Exchange at
+a Glance 71.2.1 Data Transport 71.2.2 Request and Response Model 81.3 Conventions 92.
+Structure 102.1 HTTP Headers 102.2 Open Financial Exchange Headers 112.2.1 The Meaning of
+Version Numbers 122.3 SGML Details 122.3.1 Compliance 122.3.2 Special Characters 122.4
+Open Financial Exchange SGML Structure 132.4.1 Overview 132.4.2 Top Level 132.4.3 Messages
+132.4.4 Message Sets and Version Control 142.4.5 Transactions 152.5 The Signon Message Set
+162.5.1 Signon &lt;SONRQ&gt; &lt;SONRS&gt; 162.5.2 PIN Change &lt;PINCHRQ&gt;
+&lt;PINCHRS&gt; 192.5.3 Examples 202.6 External Data Support 202.7 Extensions to Open
+Financial Exchange 213. Common Aggregates, Elements, and Data Types 223.1 Common
+Aggregates 223.1.1 Identifying Financial Institutions and Accounts 223.1.2 Balance Records
+&lt;BAL&gt; 223.1.3 Error Reporting &lt;STATUS&gt; 233.2 Common Elements 243.2.1 Financial
+Institution Transaction ID &lt;FITID&gt; 243.2.2 Server-Assigned ID &lt;SRVRTID&gt;
+243.2.3 Client-Assigned Transaction UID &lt;TRNUID&gt; 253.2.4 Token &lt;TOKEN&gt; 253.2.5
+Transaction Amount &lt;TRNAMT&gt; 253.2.6 Memo &lt;MEMO&gt; 253.2.7 Date Start and Date
+End &lt;DTSTART&gt; &lt;DTEND&gt; 263.3 Common data types 263.3.1 Dates and Times 263.3.2
+Amounts, Prices, and Quantities 283.3.3 Language 283.3.4 Basic data types 284. Security
+294.1 Security Solutions 294.1.1 Determining Security Levels &lt;OFXSEC&gt;
+&lt;TRANSPSEC&gt; 294.2 Channel-Level Security 304.2.1 Security Requirements 304.2.2 Using
+SSL 3.0 in Open Financial Exchange 304.3 Application-Level Security 314.3.1 Requirements
+for Application-Layer Security 314.3.2 Using Application-level Encryption
